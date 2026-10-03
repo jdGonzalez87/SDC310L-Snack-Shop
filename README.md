@@ -1,28 +1,36 @@
-# SDC310L Snack Shop
+## Project Summary
 
-PHP MVC web application built for the SDC310L course.  
-The project includes a product catalog, shopping cart functionality, and a clean user interface.
+The Snack Shop Application is a PHP-based web application built using the MVC framework. It allows users to browse snack products, add items to a shopping cart, update quantities, and complete a checkout process. The project demonstrates core web development concepts including database integration, routing, session management, and structured application design.
 
-## Features
-- Product catalog loaded from MySQL database
-- Add, increase, decrease, and remove items from cart
-- Cart totals with tax and shipping
-- Checkout functionality (clears cart)
-- MVC structure (Models, Views, Controllers)
-- Basic styling for catalog and cart pages
+### Key Features
+- Product catalog loaded from MySQL database  
+- Add, increase, decrease, and remove items from cart  
+- Cart totals with tax and shipping  
+- Checkout functionality (clears cart)  
+- MVC structure (Models, Views, Controllers)  
+- Basic styling for catalog and cart pages  
 
-## Project Structure
-- /app — Models, Views, Controllers
-- /config — Database configuration
-- /database — SQL export and schema
-- /public — Main entry point and assets
+### Technologies Used
+- PHP  
+- MySQL  
+- HTML/CSS  
+- GitHub  
 
-## Course Tags
-- Phase-2 — Week 2 submission
-- Phase-3 — Week 4 submission
+### Development Process
+- Week 1: Project planning  
+- Week 2: Database + framework setup  
+- Week 3: Database access with PHP  
+- Week 4: MVC + cart logic  
+- Week 5: Testing + documentation + final submission  
 
-## Requirements
-- PHP 8+
-- MySQL
-- XAMPP or similar local server
+### Testing Summary
+All major components were tested:
+- Homepage loading  
+- Product retrieval  
+- Cart functionality  
+- Checkout workflow  
+- Redirect behavior  
+- MVC routing  
+- SQL import  
 
+The application passed all tests successfully and is ready for final submission.
